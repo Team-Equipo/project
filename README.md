@@ -1,5 +1,7 @@
-###CS262 Draft Vision Statement
-
-## Jiho Kim, Jason Chew, Daniel Kim, Haneum Cha, Chris Jeong
-
-This app is designed for students studying abroad. The product aims to address the needs of language acquisition and cultural integration in a single package, providing accurate translations and a language learning experience. The document also presents preliminary ideas for features, including a word-by-word breakdown of automated translations, quick pronunciation guides, and cultural tips such as currency conversion and typical meal times. The product aims to be uniquely identifiable amongst competitors such as Google Translate and Duolingo.
+# Team Members
+Haneum Cha, Jason Chew, Chris Jeong, Daniel Kim, Jiho Kim
+​
+# Vision Statement
+For entry-level learners who first encounter a new language abroad, online translators and dictionaries are a double-edged sword; though they may be used to ease the difficulties of immediate communication, repeated usage may hinder long-term language acquisition by disrupting immersion in the target language. Lingucidity is designed to address the immediate needs of basic entry-level communication while shifting the onus of long-term language acquisition onto the user.
+​
+A portmanteau of “linguistic” and “lucidity,” Lingucidity’s functionality lies in the middle of a spectrum between the immediate but intellectually unengaging practicality of translation software and the intellectually rigorous but abstract approach of long-term language acquisition in apps like Duolingo, which initially focus on grammar and vocabulary not immediately useful to navigating unfamiliar environments. Lingucidity provides two core features: access to a list of essential, practical, pre-translated words and phrases in the target language—which addresses immediate needs left unmet by the long-term approach—and “transparent” translation, a more flexible translation tool that allows users to break down a translation into any subset of constituent parts to examine their alternate translations and grammatical characteristics (tense, conjugation, person, etc.), which enables more critical engagement with the translation and facilitates greater connections between the original and target language than would otherwise be possible in a translator with flat output.
