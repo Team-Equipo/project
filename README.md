@@ -3,8 +3,8 @@ When vacationing in foreign countries, many tourists encounter difficulties due 
 
 Our app, Lingucidity, is a portmanteau of "linguistic" and "lucidity." Lingucidity fills the sometimes subconscious gap between basic translation apps like [Google Translate](https://translate.google.com)—which are utilitarian but intellectually unengaging—and language learning apps like [Duolingo](https://www.duolingo.com), which are intellectually rigorous but not immediately practical for navigating unfamiliar environments. To bridge this gap, Lingucidity offers access to a carefully curated list of essential, useful, pre-translated words and phrases in the target language, which are tailored to the user's needs *and* consciously account for the social and cultural context in which the user currently resides. Further, as an alternative to the utilitarianism of traditional translators, Lingucidity offers "transparent" translation, a more flexible translation tool that allows users to break down a translation into any subset of constituent parts to examine their alternate translations and grammatical characteristics (tense, conjugation, person, etc. using [Wordreference](https://wordreference.com)), which enables more critical engagement with the translation and facilitates greater connections between the original and target language than would otherwise be possible in a translator with flat output.
 
-[Lucidity Client](https://github.com/Team-Equipo/client)\
-[Lucidity Service](https://github.com/Team-Equipo/service)
+[Lingucidity Client](https://github.com/Team-Equipo/client)\
+[Lingucidity Service](https://github.com/Team-Equipo/service)
 
 # Team Members
 Haneum Cha, Jason Chew, Chris Jeong, Daniel Kim, Jiho Kim
