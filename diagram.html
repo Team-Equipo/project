@@ -7,22 +7,89 @@
   </head>
   <body>
     <pre class="mermaid">
-      graph LR 
-      A --- B 
-      B-->C[fa:fa-ban forbidden] 
-      B-->D(fa:fa-spinner);
-    </pre>
-    <pre class="mermaid">
-      gitGraph
-      commit
-      commit
-      branch develop
-      commit
-      commit
-      commit
-      checkout main
-      commit
-      commit
+      classDiagram
+        LoginPage <-- StartupPage : Navigate
+        RegisterPage <-- StartupPage : Navigate
+        UserInfoPage <-- RegisterPage : Navigate
+        TripInfoPage <-- UserInfoPage : Navigate
+        HomePage <-- LoginPage : Navigate
+        HomePage <-- TripInfoPage : Navigate
+        PhrasePage -- HomePage : Navigate
+        TranslationPage -- HomePage : Navigate
+        SettingsPage -- HomePage : Navigate
+        Database <.. RegisterPage : Dependency
+        Database <.. UserInfoPage : Dependency
+        Database <.. TripInfoPage : Dependency
+        Database <.. LoginPage : Dependency
+        Database <.. PhrasePage : Dependency
+        Database <.. TranslationPage : Dependency
+        Database <.. SettingsPage : Dependency
+
+        class StartupPage{
+          +String placeHolder
+        }
+        class LoginPage{
+          +String placeHolder
+        }
+        class RegisterPage{
+          +String placeHolder
+        }
+        class UserInfoPage{
+          +String name
+          +Int age
+          +String nationality
+          +String firstLanguage
+          +String education
+          +String interests
+          +String foods
+          -String ageInput
+          -setName()
+          -setAge()
+          -setNationality()
+          -setFirstLanguage()
+          -setEducation()
+          -setInterests()
+          -setFoods()
+          -setAgeInput()
+        }
+        class TripInfoPage{
+          +String country
+          +String region
+          +String dest
+          +String dates
+          +String plan
+          +String startDate
+          +String endDate
+          -Boolean dropVisible
+          -Boolean planPromptVisible
+          -String planPrompt
+          -String[] planList
+          -setCountry()
+          -setRegion()
+          -setDest()
+          -setDates()
+          -setPlan()
+          -setStartDate()
+          -setEndDate()
+          -setDropVisiblility()
+          -setPlanPromptVisible()
+          -setPlanPrompt()
+        }
+        class SettingsPage{
+          +String placeHolder
+        }
+        class HomePage{
+          +String placeHolder
+        }
+        class PhrasePage{
+          +String placeHolder
+        }
+        class TranslationPage{
+          +String placeHolder
+        }
+        class Database{
+          +String placeHolder
+        }
     </pre>
   </body>
   <script type="module">
