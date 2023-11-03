@@ -5,6 +5,6 @@ Our app, Lingucidity, is a portmanteau of "linguistic" and "lucidity." Lingucidi
 
 [Lingucidity Client](https://github.com/Team-Equipo/client)\
 [Lingucidity Service](https://github.com/Team-Equipo/service)\
-\
+
 # Team Members
 Haneum Cha, Jason Chew, Chris Jeong, Daniel Kim, Jiho Kim
