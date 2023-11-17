@@ -4,7 +4,8 @@ Lingucidity is a language-oriented utility application that emphasizes interacti
 [UI Model](https://github.com/Team-Equipo/project/blob/main/UI-model.pdf)\
 [Domain Model](https://github.com/Team-Equipo/project/blob/main/domain-model.png)\
 [Project Presentation](https://docs.google.com/presentation/d/1_lazMcHDlzBDRSqzPgMzhheNfLDJxRuFO9L_ApY23O0/edit?usp=sharing)\
-[Trello Board](https://trello.com/b/D2UWOaAf/cs262f-teamequipo)
+[Trello Board](https://trello.com/b/D2UWOaAf/cs262f-teamequipo)\
+[Useability Test](https://docs.google.com/document/d/19t6yzECxPjlzw9NF_c7BGitwPI9r5L0xR4WtDRQr0DQ/edit)
 
 [Lingucidity Client](https://github.com/Team-Equipo/client)\
 [Lingucidity Service](https://github.com/Team-Equipo/service)
